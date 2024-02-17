@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-size: 20px;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: aliceblue;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* font-size: 18px; */
+}
+.options a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #364f72;
+  text-transform: capitalize;
+}
+
+.options a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.primary-nav {
+  background-color: aliceblue;
+  padding: 16px 32px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  /* margin: 15px 0; */
+  margin-bottom: 20px;
+}
+
+.primary-nav a {
+  text-decoration: none;
+}
+
+.options a:active,
+nav a.active {
+  color: green;
+}
+
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.img-coursal {
+  width: 100vw;
+  contain: content;
+}
+
+.container {
+  margin: 16px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 380px;
+  margin: 15px 0;
+}
+
+.card div:first-child {
+  border-radius: 5px;
+  contain: content;
+}
+
+.card div:last-child {
+  margin-top: 3px;
+  padding: 0 6px;
+}
+
+.card div:last-child h2,
+.card div:last-child p:last-child {
+  text-align: center;
+}
